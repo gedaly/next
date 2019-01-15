@@ -1,6 +1,9 @@
+html {
+  font-size: 18px;
+}
+
 .body {
-  background: #6141D9;
-  font-size: 16px;
+  background: #eeeeee;
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol", sans-serif;
   text-shadow: -1px 1px 5px rgba(0,0,0,.4);
 }
@@ -12,7 +15,7 @@ ul {
 }
 
 .today{
-  font-size: 26px;
+  font-size: 1.5rem;
 }
 
 .animated.bounceIn,
@@ -50,7 +53,7 @@ ul {
 
 .todo-list li.danger label {
   text-decoration: line-through;
-  color: #fff;
+  color: #333333;
 }
 
 .todo-list li.danger label .checkbox-mask {
@@ -67,7 +70,7 @@ ul {
 }
 
 .text-danger {
-    color: #FFDA34;
+    color: rgb(255, 208, 0);
 }
 
 .todo-list li .checkbox {
@@ -126,7 +129,7 @@ ul {
   pointer-events: auto;
   z-index: 10;
   display: block;
-  color: #666;
+  color: #444;
   -webkit-transition: color 0.15s linear;
   transition: color 0.15s linear;
   font-size: 26px;
@@ -150,7 +153,7 @@ ul {
   position: absolute;
   top: 8px;
   right: 0;
-  font-size: 14px;
+  font-size: 1rem;
   -webkit-transform: translateX(100%);
           transform: translateX(100%);
   margin-right: -10px;
@@ -161,7 +164,7 @@ ul {
 }
 
 .add-control .refresh:hover {
-  color: #666;
+  color: #444;
 }
 
 .form-control,
@@ -205,7 +208,7 @@ ul {
 
 .today {
   text-align: center;
-      color: #fff;
+      color: #555555e1;
 }
 
 .zero {
@@ -241,7 +244,7 @@ $c-blue: #4b96f0;
 button {
       font-size: 16px;
       /* border: 1px; */
-      color: #ffffff;
+      color: #555555e1;
       background: #fff0;
       padding: 10px 20px;
       transition: all 0.3s;
