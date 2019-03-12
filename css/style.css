@@ -1,4 +1,4 @@
-html {
+html, body {
   font-size: 18px;
 }
 
@@ -15,22 +15,22 @@ ul {
 }
 
 .today{
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .animated.bounceIn,
 .animated.bounceOut,
 .animated.flipOutX,
 .animated.flipOutY {
-    font-size: 13px;
+    font-size: 1rem;
   }
 
 .container {
-  padding-top: 40px;
+  padding-top: 2.2rem;
 }
 
 .todo-list {
-  margin: 20px 0;
+  margin: 1.1rem 0;
 }
 
 .todo-list li {
@@ -92,11 +92,11 @@ ul {
 .todo-list li label .checkbox-mask {
   display: block;
   border: 2px solid #666;
-  width: 12px;
-  height: 12px;
+  width: 16px;
+  height: 16px;
   border-radius: 1.5px;
   position: absolute;
-  margin-left: -20px;
+  margin-left: -24px;
   margin-top: 4px;
 }
 
@@ -104,15 +104,15 @@ ul {
   display: none;
   position: absolute;
   width: 12px;
-  height: 16px;
+  height: 1rem;
   top: 50%;
   margin-top: -8px;
   right: 10px;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .todo-list li .close .fa {
-  line-height: 16px;
+  line-height: 1rem;
 }
 
 .todo-list li:hover .close {
@@ -132,7 +132,7 @@ ul {
   color: #444;
   -webkit-transition: color 0.15s linear;
   transition: color 0.15s linear;
-  font-size: 26px;
+  font-size: 1rem;
   font-weight: bold;
 }
 
@@ -172,7 +172,7 @@ ul {
 .form-control:active,
 .form-control:active:focus {
   border: none;
-  padding: 10px 15px;
+  padding: 20px 15px;
   outline: none;
 }
 
@@ -181,6 +181,7 @@ ul {
           box-shadow: none;
   -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear;
+  font-size: 1rem;
 }
 
 .form-control:focus {
@@ -214,7 +215,7 @@ ul {
 .zero {
     top: 8px;
     right: 0;
-    font-size: 14px;
+    font-size: 1rem;
     -webkit-transform: translateX(100%);
     transform: translateX(100%);
     margin-right: -10px;
@@ -242,7 +243,7 @@ $c-blue: #4b96f0;
 }
 
 button {
-      font-size: 16px;
+      font-size: 18px;
       /* border: 1px; */
       color: #555555e1;
       background: #fff0;
@@ -338,11 +339,11 @@ p {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 10px;
-    font-size: 70px;
+    font-size: 4rem;
 }
 
 .footer {
-    font-size: 14px;
+    font-size: .8rem;
     margin-top: 3em;
     text-align: center;
     color: #fff;
