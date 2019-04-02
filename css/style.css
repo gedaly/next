@@ -14,6 +14,19 @@ ul {
     padding: 0;
 }
 
+details > summary {
+  border: 0;
+  cursor: pointer;
+}
+
+details[open] {
+  border: 5px blue;
+}
+
+details:active {
+  border: 0;
+}
+
 .today{
   font-size: 1rem;
 }
@@ -295,7 +308,7 @@ box-shadow: 0 0 25px 0 #452579;
 
 p {
     margin: 15px 0 10px;
-    font-size: 26px;
+    font-size: 1rem;
     color: #FFF;
 }
 
@@ -314,10 +327,13 @@ p {
 }
 
 .footer {
-    font-size: .8rem;
     margin-top: 3em;
     text-align: center;
     color: #fff;
+}
+
+.footer > p {
+  font-size: .8rem;
 }
 
 .footer a {
