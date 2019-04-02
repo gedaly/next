@@ -397,6 +397,7 @@ a:focus, a:hover {
 .logo {
     width: 70px;
     height: 70px;
+    text-align: center;
 
 }
 }
