@@ -225,11 +225,6 @@ ul {
     transition: color 0.15s linear;
 }
 
-$c-gray: #8d959b;
-$c-light: #f9f9f9;
-$c-dark: #404060;
-$c-red: #e96575;
-$c-blue: #4b96f0;
 // Base Classes
 .group:after {
   content: "";
