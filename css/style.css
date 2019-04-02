@@ -5,7 +5,7 @@ html, body {
 .body {
   background: #eeeeee;
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol", sans-serif;
-  text-shadow: -1px 1px 5px rgba(0,0,0,.4);
+  /* text-shadow: -1px 1px 5px rgba(0,0,0,.4); */
 }
 
 ol,
@@ -15,12 +15,16 @@ ul {
 }
 
 details > summary {
-  border: 0;
   cursor: pointer;
+  outline:none;
+}
+
+summary:hover {
+  color: #999;
 }
 
 details[open] {
-  border: 5px blue;
+  
 }
 
 details:active {
@@ -336,8 +340,12 @@ p {
   font-size: .8rem;
 }
 
+.footer > details > p {
+  color: #999;
+}
+
 .footer a {
-  color: #fff;
+  color: blue;
   text-decoration: underline;
 }
 
